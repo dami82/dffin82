@@ -1,0 +1,15 @@
+Package: dffin82
+Type: Package
+Title: Manage Financial Data from Yahoo! using R
+Version: 1.0
+Date: 2023-06-11
+Author: Damiano Fantini
+Maintainer: Damiano Fantini <damiano.fantini@gmail.com>
+Description: Yahoo! Finance is a part of the Yahoo! network and is an online service providing financial news, data and commentary including stock quotes, press releases, financial reports, and other original content. The dffin82 library is a platform providing a series of functions and tools for downloading, managing, aggregating, and analyzing stock data from Yahoo! Finance.
+License: file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.5)
+Imports: httr, jsonlite
+Suggests: dplyr, reshape2, kableExtra, gridExtra, knitr, rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.2.1
